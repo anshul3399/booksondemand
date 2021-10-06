@@ -1,0 +1,76 @@
+@font-face {
+    font-family: centurygothicregular;
+    src: url(/themes/fonts/CenturyGothicRegular.ttf)
+}
+
+@font-face {
+    font-family: helvetica;
+    src: url(/themes/fonts/helvetica.ttf)
+}
+
+@font-face {
+    font-family: centurygothicregular;
+    src: url(/themes/fonts/CenturyGothicRegularBold.ttf);
+    font-weight: 700
+}
+html {  
+    scroll-behavior: smooth;  
+}
+
+#initial-block { height: 2100px; }
+
+div.image-block {
+    position: relative;
+    text-align: center;
+    color: white;
+    font-family: centurygothicreular;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+/* Centered text */
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.block-title{
+    color: #616161;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+
+.mr-5{
+    /* font-family: 'Times New Roman',helvetica,serif; */
+    font-family: centurygothicregular;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.book-cover{
+    max-height: 700px;
+    max-width: 175px;
+    margin-left: 50px;
+    border-radius: 5px;
+}
+.book-author
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+}
+
+.explore-pg-uppr{
+    height: 50px;
+    text-align: center;
+    font-size: 30px;
+    font-family: ui-monospace;
+    font-weight: 300;
+    color: azure;
+    border-bottom-left-radius: 13px;
+    border-bottom-right-radius: 13px;
+}
